@@ -1,0 +1,48 @@
+.dark-light
+{
+  width: 35px;
+  height: 35px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-left: 10px;
+}
+
+.dark-light .icon
+{
+  background-color: #fff;
+  box-shadow: 2px 2px 7px #888;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.dark-light i
+{
+  font-size: 20px;
+
+  transition: .5s;
+}
+
+.dark-light .sun
+{
+  position: absolute;
+  transform: scale(0);
+}
+
+.App.dark .dark-light .icon .sun
+{
+  transform: scale(1) rotate(90deg);
+}
+
+.App.dark .dark-light .icon .moon
+{
+  transform: scale(0) rotate(-90deg);
+}

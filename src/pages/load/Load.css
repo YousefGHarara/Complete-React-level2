@@ -1,0 +1,50 @@
+.my-load
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.my-load span
+{
+  /* display: block;
+  position: absolute; */
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  /* border: 10px solid green;
+  border-color: #000;
+  border-top-color: #eee; */
+  border-top: 5px solid #E84743;
+  border-right: 5px solid #E84743;
+  animation-name: animated;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: .5s;
+}
+
+@keyframes animated
+{
+  0%
+  {
+    transform: rotate(0)
+  }
+
+  100%
+  {
+    transform: rotate(360deg);
+  }
+}
+
+.App.dark .my-load
+{
+  background-color: #333;
+}
+
+.App.dark .my-load span
+{
+  /* border-right-color: #fff;
+  border-top-color: #000; */
+}

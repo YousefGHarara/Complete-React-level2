@@ -1,0 +1,18 @@
+.my-profile
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-profile .btn-delete
+{
+  padding: 5px 30px ;
+  font-size: 17px;
+  background-color: rgb(255, 96, 96);
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  margin-top: 20px;
+}

@@ -1,0 +1,82 @@
+.my-signup
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.my-signup .signup__content
+{
+  width: 400px;
+  height: 300px;
+  background-color: transparent;
+  padding: 30px 30px;
+}
+
+.my-signup .signup__content form
+{
+  background-color: transparent;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-direction: column;
+}
+
+.my-signup .signup__content form .signup__input__title
+{
+  text-align: center;
+
+}
+
+.my-signup .signup__content form input
+{
+  height: 35px;
+  padding-left: 10px;
+  border-radius: 5px;
+  border: none;
+
+}
+
+.my-signup .signup__content form input:focus
+{
+  outline: none;
+}
+
+.my-signup .signup__content form .signup__btn-submit
+{
+  /* padding: 10px 0; */
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #1090DE;
+  color: #fff;
+  font-size: 15px;
+  transition: .1s;
+  width: 100px;
+}
+
+.my-signup .signup__content form .signup__btn-submit:hover
+{
+  transform: scale(1.05);
+}
+
+.my-signup .signup__content form .signup__btn-submit:active
+{
+  transform: scale(.95);
+}
+
+.my-signup .signup__content form p
+{
+  text-align: center;
+}
+
+.page-verify
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

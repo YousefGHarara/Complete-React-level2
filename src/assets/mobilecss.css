@@ -1,0 +1,49 @@
+
+
+/* header */
+
+@media (max-width: 540px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .App.light .my-header,
+  .App.dark .my-header
+  {
+    height: 11vh;
+  }
+
+  h1
+  {
+    font-style:12px;
+  }
+
+  .main
+  {
+    height: 82vh;
+  }
+
+  .main h1
+  {
+    font-size: 19px;
+  }
+
+  .my-footer p
+  {
+    font-size: 12px;
+  }
+
+  
+.App.dark .my-signup .signup__content,
+.App.light .my-signup .signup__content
+{
+  padding: 4px 17px;
+}
+
+.App.dark .my-signin .signin__content,
+.App.light .my-signin .signin__content
+{
+  padding: 14px 8px;
+}
+
+}

@@ -1,0 +1,42 @@
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main
+{
+  height: 86vh;
+  background-color: #eee;
+
+}
+
+.App.dark .main
+{
+  background-color: #333;
+  color: #fff;
+}
+
+.btn-all
+{
+  all: unset;
+  background-color: #F41479;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.btn-all:hover
+{
+  transform: scale(1.03);
+}
+
+.btn-all:active
+{
+  transform: scale(.9);
+}

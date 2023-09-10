@@ -1,0 +1,38 @@
+.home-page
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-page .home-content
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.home-page .home-content button
+{
+  all: unset;
+  background-color: #F41479;
+  padding: 10px 20px;
+  border-radius: 5px;
+  color: #fff;
+  margin-top: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: .3s;
+}
+
+.home-page .home-content button:hover
+{
+  transform: scale(1.03);
+}
+
+.home-page .home-content button:active
+{
+  transform: scale(.9 );
+}

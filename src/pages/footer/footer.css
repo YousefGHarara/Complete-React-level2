@@ -1,0 +1,16 @@
+
+.my-footer
+{
+  width: 100%;
+  height: 7vh;
+  background-color: #26302F;
+  padding: 0 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-footer p
+{
+  color: #fff;
+}
